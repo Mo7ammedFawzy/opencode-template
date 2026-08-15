@@ -16,6 +16,14 @@ After creating your project, install the default OpenCode skills:
 npx skills add https://github.com/vercel-labs/skills --skill find-skills;
 ```
 
+
+## Installer
+
+Run the following command from the root of your project:
+
+```powershell
+irm https://raw.githubusercontent.com/Mo7ammedFawzy/opencode-template/main/install.ps1 | iex
+```
 ## Contents
 
 - `AGENTS.md` — instructions for OpenCode agents working in the repo
