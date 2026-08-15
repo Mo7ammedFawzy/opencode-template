@@ -21,9 +21,15 @@ npx skills add https://github.com/vercel-labs/skills --skill find-skills;
 
 Run the following command from the root of your project:
 
+### global
 ```powershell
 irm https://raw.githubusercontent.com/Mo7ammedFawzy/opencode-template/main/install.ps1 | iex
 ```
+### vue
+```powershell
+irm https://raw.githubusercontent.com/Mo7ammedFawzy/opencode-template/main/install-vue.ps1 | iex
+```
+
 ## Contents
 
 - `AGENTS.md` — instructions for OpenCode agents working in the repo
